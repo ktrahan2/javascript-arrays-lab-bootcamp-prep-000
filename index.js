@@ -17,7 +17,7 @@ function appendKitten(name) {
   return kittens2
 }
 function prependKitten(name) {
-  var kittens5 = kittens.splice(0, 4, name)
+  var kittens5 = kittens.splice(0, 1, name)
   return kittens5
 }
 function removeLastKitten() {
