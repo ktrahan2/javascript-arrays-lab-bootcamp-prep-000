@@ -12,7 +12,7 @@ function destructivelyRemoveLastKitten(name) {
 function destructivelyRemoveFirstKitten(name) {
   kittens.shift(name)
 }
-function appendKitten() {
-  var kittens2 = kittens.concat(1)
+function appendKitten(name) {
+  var kittens2 = kittens.concat(name)
   return kittens2
 }
