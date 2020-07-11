@@ -16,3 +16,6 @@ function appendKitten(name) {
   var kittens2 = kittens.concat(name)
   return kittens2
 }
+function removeLastKitten(name) {
+  var kittens3 = kittens.slice(name)
+}
