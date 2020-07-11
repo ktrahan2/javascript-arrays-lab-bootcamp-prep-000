@@ -16,8 +16,11 @@ function appendKitten(name) {
   var kittens2 = kittens.concat(name)
   return kittens2
 }
+function prependKitten(name) {
+  var kittens5 = kittens
+}
 function removeLastKitten() {
-  var kittens3 = kittens.slice(-3)
+  var kittens3 = kittens.slice(2, 3)
   return kittens3
 }
 function removeFirstKitten() {
